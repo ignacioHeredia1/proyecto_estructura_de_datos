@@ -1,0 +1,224 @@
+# ========================================
+# DEPENDENCIAS PRINCIPALES DEL PROYECTO
+# Cliente de Correo Electrónico
+# ========================================
+
+# ---- CORE DEPENDENCIES ----
+# Estas son las dependencias esenciales para el funcionamiento básico
+
+# Para manejo de fechas y tiempos avanzado
+python-dateutil>=2.8.2
+# Uso: Parsing y manipulación de fechas en mensajes
+
+# Para validación de datos y tipos
+pydantic>=1.10.0
+# Uso: Validación robusta de emails, usuarios y mensajes
+
+# Para logging avanzado con colores
+colorlog>=6.7.0
+# Uso: Logs coloridos en la interfaz de línea de comandos
+
+# ---- ESTRUCTURAS DE DATOS Y ALGORITMOS ----
+# Librerías para implementar estructuras de datos avanzadas
+
+# Para estructuras de datos especializadas
+sortedcontainers>=2.4.0
+# Uso: Listas ordenadas para mensajes por fecha, colas de prioridad
+
+# Para algoritmos de grafos (red de servidores)
+networkx>=2.8.0
+# Uso: Implementar grafo de servidores, algoritmos BFS/DFS
+
+# Para estructuras de datos numéricas eficientes
+numpy>=1.21.0
+# Uso: Arrays para procesamiento eficiente de grandes volúmenes de datos
+
+# ---- INTERFAZ DE USUARIO ----
+# Dependencias para crear interfaces atractivas
+
+# Para interfaces de línea de comandos avanzadas
+rich>=13.0.0
+# Uso: Tablas, progress bars, texto con formato en CLI
+
+# Para menús interactivos en terminal
+inquirer>=3.1.0
+# Uso: Menús de selección, inputs interactivos
+
+# Para colores en terminal (cross-platform)
+colorama>=0.4.6
+# Uso: Colores en Windows, Linux y macOS
+
+# ---- SERIALIZACIÓN Y PERSISTENCIA ----
+# Para guardar y cargar datos
+
+# Para trabajar con archivos JSON avanzados
+orjson>=3.8.0
+# Uso: Serialización rápida de mensajes y configuraciones
+
+# Para compresión de datos
+lz4>=4.3.0
+# Uso: Comprimir archivos de respaldo y logs grandes
+
+# ---- TESTING Y DESARROLLO ----
+# Herramientas para desarrollo y pruebas
+
+# Framework de testing principal
+pytest>=7.2.0
+# Uso: Pruebas unitarias e integración
+
+# Para cobertura de código
+pytest-cov>=4.0.0
+# Uso: Medir qué porcentaje del código está probado
+
+# Para fixtures de datos de prueba
+pytest-factoryboy>=2.5.0
+# Uso: Generar datos de prueba automáticamente
+
+# Para testing parametrizado avanzado
+pytest-parametrize-cases>=0.1.0
+# Uso: Casos de prueba múltiples con diferentes parámetros
+
+# ---- DOCUMENTACIÓN ----
+# Para generar documentación automática
+
+# Para generar documentación desde docstrings
+sphinx>=5.3.0
+# Uso: Crear documentación HTML del proyecto
+
+# Tema moderno para Sphinx
+sphinx-rtd-theme>=1.2.0
+# Uso: Tema visual profesional para docs
+
+# Para documentación de APIs
+sphinx-autodoc-typehints>=1.19.0
+# Uso: Incluir type hints en la documentación
+
+# ---- UTILIDADES DE DESARROLLO ----
+# Herramientas que facilitan el desarrollo
+
+# Para formateo automático de código
+black>=22.0.0
+# Uso: Mantener código consistente y legible
+
+# Para ordenar imports automáticamente
+isort>=5.11.0
+# Uso: Organizar imports según estándares
+
+# Para análisis estático de código
+flake8>=6.0.0
+# Uso: Detectar errores y problemas de estilo
+
+# Para type checking estático
+mypy>=0.991
+# Uso: Verificar tipos de datos en tiempo de desarrollo
+
+# ---- PERFORMANCE Y MONITORING ----
+# Para optimización y monitoreo
+
+# Para profiling de código
+line_profiler>=4.0.0
+# Uso: Identificar cuellos de botella en el rendimiento
+
+# Para medición de memoria
+memory_profiler>=0.61.0
+# Uso: Detectar memory leaks y optimizar uso de RAM
+
+# Para benchmarking
+pytest-benchmark>=4.0.0
+# Uso: Comparar rendimiento de algoritmos
+
+# ---- SEGURIDAD ----
+# Para encriptación y seguridad
+
+# Para hashing seguro de contraseñas
+bcrypt>=4.0.0
+# Uso: Encriptar contraseñas de usuarios de forma segura
+
+# Para generación de UUIDs
+uuid>=1.30
+# Uso: Generar IDs únicos para mensajes
+
+# ---- CONFIGURACIÓN Y VARIABLES DE ENTORNO ----
+# Para manejo de configuraciones
+
+# Para variables de entorno
+python-dotenv>=0.21.0
+# Uso: Cargar configuraciones desde archivo .env
+
+# Para archivos de configuración YAML
+pyyaml>=6.0
+# Uso: Configuraciones complejas del sistema
+
+# ---- OPCIONAL: CARACTERÍSTICAS AVANZADAS ----
+# Dependencias opcionales para funcionalidades extras
+
+# Para procesamiento de texto avanzado
+# nltk>=3.8.0
+# Uso: Análisis de sentimientos en mensajes, clasificación automática
+
+# Para machine learning básico
+# scikit-learn>=1.2.0
+# Uso: Filtros inteligentes, clasificación automática de spam
+
+# Para interfaces gráficas (GUI)
+# tkinter ya viene con Python, pero para interfaces más modernas:
+# kivy>=2.1.0
+# Uso: Interfaz gráfica moderna y responsive
+
+# Para notificaciones del sistema
+# plyer>=2.1.0
+# Uso: Notificaciones nativas cuando llegan mensajes nuevos
+
+# ---- HERRAMIENTAS DE BUILD Y DISTRIBUCIÓN ----
+# Para empaquetar y distribuir el proyecto
+
+# Para crear ejecutables
+# pyinstaller>=5.7.0
+# Uso: Crear .exe del proyecto para distribución
+
+# Para manejo de dependencias avanzado
+# poetry>=1.3.0
+# Uso: Alternativa a pip con mejor resolución de dependencias
+
+# ========================================
+# NOTAS IMPORTANTES:
+# ========================================
+
+# 1. INSTALACIÓN BÁSICA:
+#    pip install -r requirements.txt
+
+# 2. INSTALACIÓN PARA DESARROLLO:
+#    pip install -r requirements.txt -r requirements-dev.txt
+
+# 3. ENTORNO VIRTUAL RECOMENDADO:
+#    python -m venv venv
+#    source venv/bin/activate  # Linux/macOS
+#    venv\Scripts\activate     # Windows
+
+# 4. ACTUALIZAR DEPENDENCIAS:
+#    pip list --outdated
+#    pip install --upgrade [package_name]
+
+# 5. GENERAR REQUIREMENTS ACTUALIZADOS:
+#    pip freeze > requirements-freeze.txt
+
+# 6. COMPATIBILIDAD:
+#    Todas las versiones especificadas son compatibles con Python 3.8+
+
+# 7. DEPENDENCIAS OPCIONALES:
+#    Las comentadas (#) son opcionales y se pueden instalar según necesidad:
+#    pip install nltk scikit-learn  # Para características ML
+
+# 8. RESOLUCIÓN DE CONFLICTOS:
+#    Si hay conflictos de versiones, usar:
+#    pip install --force-reinstall [package_name]
+
+# ========================================
+# ESTRUCTURA DE ARCHIVOS DE REQUIREMENTS:
+# ========================================
+
+# requirements.txt          <- Este archivo (dependencias principales)
+# requirements-dev.txt      <- Dependencias adicionales para desarrollo
+# requirements-test.txt     <- Solo dependencias de testing
+# requirements-docs.txt     <- Solo dependencias de documentación
+# requirements-optional.txt <- Características opcionales
