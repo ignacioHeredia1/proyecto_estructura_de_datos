@@ -1,12 +1,23 @@
-# Cliente de Correo
+# 📬 Proyecto Cliente de Correo - Estructura de Datos
 
-Este proyecto simula un cliente de correo básico con gestión de usuarios, mensajes y carpetas. Está hecho en Python y pensado para correr desde consola.
+Este proyecto fue desarrollado como trabajo práctico para la materia **Estructura de Datos**, con el objetivo de aplicar conceptos de programación orientada a objetos, modularidad y manejo de estructuras dinámicas en Python.
 
-## Estructura
-- `models`: clases base como Usuario, Mensaje, Carpeta.
-- `controllers`: lógica para enviar correos y aplicar filtros.
-- `interface`: interfaz CLI para interactuar con el sistema.
+## 👥 Integrantes del grupo
 
-## Cómo correr
-```bash
-python src/main.py
+- Ignacio Heredia
+- [Nombre del compañero 1]
+- [Nombre del compañero 2]
+
+## 🚀 Descripción
+
+El sistema simula un cliente de correo electrónico básico, ejecutado desde consola. Permite la creación de usuarios, gestión de carpetas, envío de mensajes (simulado), visualización de bandeja de entrada y filtrado por asunto.
+
+## 🛠️ Tecnologías utilizadas
+
+- Python 3.13
+- Programación orientada a objetos
+- Estructura modular con paquetes
+- PowerShell (automatización de ejecución)
+
+## 📁 Estructura del proyecto
+
