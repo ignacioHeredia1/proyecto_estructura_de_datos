@@ -1,10 +1,30 @@
 class Mensaje:
     def __init__(self, remitente, destinatario, asunto, cuerpo):
-        self.remitente = remitente
-        self.destinatario = destinatario
-        self.asunto = asunto
-        self.cuerpo = cuerpo
-        self.leido = False
+        self._remitente = remitente
+        self._destinatario = destinatario
+        self._asunto = asunto
+        self._cuerpo = cuerpo
+        self._leido = False
+
+    @property
+    def remitente(self):
+        return self._remitente
+
+    @property
+    def destinatario(self):
+        return self._destinatario
+
+    @property
+    def asunto(self):
+        return self._asunto
+
+    @property
+    def cuerpo(self):
+        return self._cuerpo
+
+    @property
+    def leido(self):
+        return self._leido
 
     def marcar_leido(self):
-        self.leido = True
+        self._leido = True
