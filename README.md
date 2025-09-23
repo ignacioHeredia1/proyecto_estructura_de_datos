@@ -25,7 +25,6 @@ A lo largo de distintas entregas se aplicaron:
 
 ### Documentacion
 📄 [Propuesta de Proyecto](docs/Propuesta_de_proyecto.pdf)  
-🎞 [Presentación Entrega 2](docs/Presentacion_Entrega2.pdf)  
 🖼 [Diagrama Árbol de Carpetas](docs/Diagramas/arbol_carpetas.png)  
 
 👉 Ejemplo:  
