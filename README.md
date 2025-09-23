@@ -23,6 +23,12 @@ A lo largo de distintas entregas se aplicaron:
 - Clases: `Usuario`, `Mensaje`, `Carpeta`, `ServidorCorreo`  
 - Encapsulamiento con atributos privados y propiedades  
 
+### 🔹 Entrega 2 – Árbol de carpetas
+- Estructura recursiva de carpetas y subcarpetas  
+- Métodos para mover mensajes y búsquedas recursivas  
+
 👉 Ejemplo:  
 ```bash
+python examples/demo_entrega2.py
+
 
