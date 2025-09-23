@@ -1,23 +1,28 @@
-# 📬 Proyecto Cliente de Correo - Estructura de Datos
+# 📧 Cliente de Correo Electrónico – Proyecto Final (Estructuras de Datos, UNaB)
 
-Este proyecto fue desarrollado como trabajo práctico para la materia **Estructura de Datos**, con el objetivo de aplicar conceptos de programación orientada a objetos, modularidad y manejo de estructuras dinámicas en Python.
+## 👥 Integrantes
+- Ariel Aguilar  
+- Ignacio Nicolás Heredia  
+- Katherine Avendaño  
 
-## 👥 Integrantes del grupo
+---
 
-- Ignacio Heredia
-- Ariel Aguilar
-- Katherine Avendaño
+## 📌 Descripción
+Este proyecto implementa un **cliente de correo electrónico en Python** como trabajo final de la materia **Estructuras de Datos**.  
+A lo largo de distintas entregas se aplicaron:
+- **Programación Orientada a Objetos (POO)**  
+- **Estructuras de datos**: árboles, listas, diccionarios, colas de prioridad, grafos  
+- **Algoritmos**: recursividad, BFS y DFS  
+- **Buenas prácticas**: modularidad, documentación, manejo de versiones  
 
-## 🚀 Descripción
+---
 
-El sistema simula un cliente de correo electrónico básico, ejecutado desde consola. Permite la creación de usuarios, gestión de carpetas, envío de mensajes (simulado), visualización de bandeja de entrada y filtrado por asunto.
+## 🚀 Funcionalidades por entrega
 
-## 🛠️ Tecnologías utilizadas
+### 🔹 Entrega 1 – Modelado de clases
+- Clases: `Usuario`, `Mensaje`, `Carpeta`, `ServidorCorreo`  
+- Encapsulamiento con atributos privados y propiedades  
 
-- Python 3.13
-- Programación orientada a objetos
-- Estructura modular con paquetes
-- PowerShell (automatización de ejecución)
-
-## 📁 Estructura del proyecto
+👉 Ejemplo:  
+```bash
 
