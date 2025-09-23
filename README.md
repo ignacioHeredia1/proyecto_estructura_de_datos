@@ -5,8 +5,8 @@ Este proyecto fue desarrollado como trabajo práctico para la materia **Estructu
 ## 👥 Integrantes del grupo
 
 - Ignacio Heredia
-- 
-- 
+- Ariel Aguilar
+- Katherine Avendaño
 
 ## 🚀 Descripción
 
