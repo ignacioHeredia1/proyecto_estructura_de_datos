@@ -23,14 +23,11 @@ A lo largo de distintas entregas se aplicaron:
 - Clases: `Usuario`, `Mensaje`, `Carpeta`, `ServidorCorreo`  
 - Encapsulamiento con atributos privados y propiedades  
 
-### Documentacion
-📄 [Propuesta de Proyecto](docs/Propuesta_de_proyecto.pdf)  
-🖼 [Diagrama Árbol de Carpetas](docs/Diagramas/arbol_carpetas.png)  
+### Documentos
+-📄 [Propuesta de Proyecto](docs/Propuesta_de_proyecto.pdf) 
+-🖼 [Diagrama Árbol de Carpetas](docs/Diagrama.drawio.pdf) 
 
 👉 Ejemplo:  
 ```bash
 python -B -m src.main
-
-
-
 
