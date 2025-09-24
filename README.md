@@ -25,7 +25,7 @@ A lo largo de distintas entregas se aplicaron:
 
 ### Documentos
 -📄 [Propuesta de Proyecto](docs/Propuesta_de_proyecto.pdf) 
--🖼 [Diagrama Árbol de Carpetas](docs/Diagrama.drawio.pdf) 
+-🖼 [Diagrama Árbol de Carpetas](docs/Diagramas/Diagrama_UML_Entrega1.pdf) 
 
 👉 Ejemplo:  
 ```bash
