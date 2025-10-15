@@ -4,7 +4,7 @@ class Mensaje:
         self._destinatario = destinatario
         self._asunto = asunto
         self._cuerpo = cuerpo
-        self._leido = False
+        self._leido = False  # ✅ nuevo atributo
 
     @property
     def remitente(self):
@@ -28,3 +28,6 @@ class Mensaje:
 
     def marcar_leido(self):
         self._leido = True
+
+    def __str__(self):
+        return f"De: {self.remitente} | Para: {self.destinatario} | Asunto: {self.asunto}"

@@ -2,8 +2,8 @@ import heapq
 
 class FiltroController:
     def __init__(self):
-        self.reglas = {}  # diccionario: {palabra_clave: carpeta_destino}
-        self._cola_prioridad = []  # heap para mensajes urgentes
+        self.reglas = {}  
+        self._cola_prioridad = [] 
 
     def agregar_regla(self, palabra_clave, carpeta_destino):
         """Agrega regla de filtrado: si un mensaje contiene la palabra_clave, va a carpeta_destino"""
