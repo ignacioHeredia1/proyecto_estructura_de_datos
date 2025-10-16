@@ -43,8 +43,10 @@ A lo largo de distintas entregas se aplicaron:
 - Material complementario (infografía o video explicativo)
 
 ### Documentos
--📄 [Propuesta de Proyecto](docs/Propuesta_de_proyecto.pdf) 
--🖼 [Diagrama Árbol de Carpetas](docs/Diagramas/Diagrama_UML_Entrega1.pdf) 
+-📄 [Propuesta de Proyecto 2da entrega](docs/Proyecto%20tp%20Segunda%20entrega%20.docx) 
+-🖼 [Diagrama Árbol de Carpetas](docs/diagramas/Diagrama_UML_Entrega1.pdf) 
+-📄 [Powerpoint explicativo 2da entrega](docs/Cliente%20de%20correo%20electrónico.pptx)
+-🖼 [Video explicativo del árbol de carpeta](docs/video%20explicando%20carpetas%20del%20proyecto.mp4)
 
 ## ▶️ Cómo ejecutar 
 ```bash
