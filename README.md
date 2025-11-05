@@ -49,6 +49,7 @@ Simulación de enrutamiento de mensajes entre servidores usando BFS (para encont
 -🖼 [Diagrama Árbol de Carpetas](docs/diagramas/Diagrama_UML_Entrega1.pdf) 
 -📄 [Powerpoint explicativo 2da entrega](docs/Cliente%20de%20correo%20electrónico.pptx)
 -🖼 [Video explicativo del árbol de carpeta](docs/video%20explicando%20carpetas%20del%20proyecto.mp4)
+-🖼 [Video explicando los algoritmos y funcionalidades de la 3ra entrega](docs/algoritmos_y_funcionalidades.mp4)
 
 ## ▶️ Cómo ejecutar 
 ```bash
