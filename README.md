@@ -19,28 +19,30 @@ A lo largo de distintas entregas se aplicaron:
 
 ## 🚀 Funcionalidades por entrega
 
-### 🔹 Entrega 1 – Modelado de clases
-- Clases: `Usuario`, `Mensaje`, `Carpeta`, `ServidorCorreo`  
-- Encapsulamiento con atributos privados y propiedades  
+🔹 Entrega 1 – Modelado de clases
+Clases: Usuario, Mensaje, Carpeta, ServidorCorreo
 
-## Entrega 2: Estructuras Recursivas y Búsqueda ✅
-- Implementación de carpetas y subcarpetas como árbol general
+Encapsulamiento con atributos privados y propiedades
 
-- Búsqueda recursiva por asunto o remitente
+Interfaces básicas para enviar y listar mensajes .
 
-- Movimiento de mensajes entre carpetas
+🔹 Entrega 2 – Estructuras de Datos y Recursividad
+Gestión de carpetas y subcarpetas implementada como un Árbol General (clase Carpeta con _subcarpetas).
 
-- Modularización del código en models, controllers, interface
+Implementación de búsqueda recursiva de mensajes por asunto o remitente (Carpeta.buscar_mensaje).
 
-- Integración de FiltroController para aplicar reglas automáticas
+🔹 Entrega 3 – Algoritmos y Funcionalidades Avanzadas
 
-- Cola de prioridad para mensajes urgentes
+Filtros automáticos: Uso de Diccionarios (filtro_controller.py) para organizar mensajes según reglas.
 
-- Interfaz CLI completa con menú interactivo
 
-- Documentación técnica y análisis de eficiencia en docs/eficiencia.md
+Cola de Prioridad: Implementación de heapq (filtro_controller.py) para gestionar mensajes marcados como "urgentes".
 
-- Material complementario (infografía o video explicativo)
+Red de Servidores (Grafos):
+
+Modelado de la red de servidores como un Grafo Dirigido (usando networkx en servidor_correo.py).
+
+Simulación de enrutamiento de mensajes entre servidores usando BFS (para encontrar el camino más corto) y DFS (para verificar conectividad).
 
 ### Documentos
 -📄 [Propuesta de Proyecto 2da entrega](docs/Proyecto%20tp%20Segunda%20entrega%20.docx) 
